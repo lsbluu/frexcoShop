@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./frexco.png" alt="Markdownify"  width="600"></h1>
+<h1 align="center"><img src="./gifFruits.gif" alt="Markdownify"  width="600"></h1>
 
 # Boas-vindas ao repositório do projeto Frexco Shop!
 
@@ -30,6 +30,12 @@ Funcionalidades obrigatórias:
 <details>
   <summary><strong>:keyboard:	 Acessando projeto localmente </strong></summary><br />
 
+
+ 1. Clone o repositório
+
+ 2. Instale as dependências com `npm install`
+ 
+ 3. Execute o NPM START
  
 
 </details>
