@@ -28,6 +28,21 @@ Funcionalidades obrigatórias:
 </details>
 
 <details>
+
+   <summary><strong> :desktop_computer:	 Páginas</strong></summary><br />
+   Páginas obrigatórias: </br>
+   - Listagem dos produtos (Produtos da API pública).
+         <h1 align="center"><img src="./list.png" alt="Markdownify"  width="600"></h1>
+   - Carrinho de compras
+            <h1 align="center"><img src="./cart.png" alt="Markdownify"  width="600"></h1>
+   - Página da fruta
+                  <h1 align="center"><img src="./fruit.png" alt="Markdownify"  width="600"></h1>
+
+
+
+</details>
+
+<details>
   <summary><strong>:keyboard:	 Acessando projeto localmente </strong></summary><br />
 
 
