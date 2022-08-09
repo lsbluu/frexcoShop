@@ -18,15 +18,10 @@ const Img = styled('img')({
 });
 
 function FruitList(){
-  const { Fruits, setCartItems, CartItems, FruitImge, Loading, setLoading  } = useContext(FruitContext);
+  const { Fruits, setCartItems, CartItems, FruitImge, Loading  } = useContext(FruitContext);
   const jpg = FruitImge.map((i) => i.img);
   let navigate = useNavigate();
 
-// const load = async () => {
-//   await setLoading(false)
-// }
-
-// load();
   
   const handleAddItems = (id) => {  
     const copyItems = [...CartItems];

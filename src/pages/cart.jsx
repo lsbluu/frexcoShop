@@ -1,6 +1,5 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import FruitContext from "../context/fruitContext";
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -10,10 +9,9 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 function Cart(){
-  const { Fruits, setCartItems, CartItems, FruitImge } = useContext(FruitContext);
+  const { Fruits, setCartItems } = useContext(FruitContext);
   const fruitsStorage = JSON.parse(localStorage.getItem('items'))
   const FruitsCart = Fruits.filter((f) => fruitsStorage.find((i) => f.id === i.id));
-  const fruitsImg = FruitImge.filter((f) => fruitsStorage.find((img) => f.id === img.id));
 
 
   const handleRemoveItem = (id) => {

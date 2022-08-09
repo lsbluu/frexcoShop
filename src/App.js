@@ -7,12 +7,13 @@ import Menu from './component/Menu';
 import Cart from './pages/cart';
 import Fruit from './pages/fruit';
 import NotFound from './pages/NotFound';
+import Footer from './component/footer';
 
 
 function App() {
   return (
     <FruitProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Menu />      
       <Routes>
       <Route path="/fruit/:id" element={ <Fruit />} />
@@ -20,6 +21,7 @@ function App() {
       <Route path="/carrinho" element={ <Cart /> } />
       <Route exact path='*' element={<NotFound />} />
     </Routes>
+    <Footer />
       </BrowserRouter>      
      </FruitProvider>
   );

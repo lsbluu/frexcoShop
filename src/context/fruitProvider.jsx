@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import fetchApi from "../api/fetchApi";
-import fetchImg from "../api/apiResult";
+import fetchImg from "../api/images";
 import FruitContext from "./fruitContext";
 
 function FruitProvider({ children }) {
@@ -16,8 +16,6 @@ function FruitProvider({ children }) {
     setFruits(fruitsResponse);
     const img = fetchImg
     setFruitImge(img)
-    
-    
   }
  
   useEffect(() => {

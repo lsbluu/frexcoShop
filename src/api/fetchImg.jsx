@@ -1,4 +1,4 @@
-import apiResult from './apiResult';
+import apiResult from './images';
 
 const fetchImg =  () => {
 
