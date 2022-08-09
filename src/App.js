@@ -16,8 +16,8 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Menu />      
       <Routes>
+      <Route path="/" element={ <FruitList /> } />
       <Route path="/fruit/:id" element={ <Fruit />} />
-      <Route path="/fruits" element={ <FruitList /> } />
       <Route path="/carrinho" element={ <Cart /> } />
       <Route exact path='*' element={<NotFound />} />
     </Routes>

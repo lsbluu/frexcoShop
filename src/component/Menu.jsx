@@ -20,7 +20,7 @@ function Menu(){
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-        <NavLink to="/fruits"> 
+        <NavLink to="/"> 
           <IconButton
             size="large"
             edge="start"
@@ -39,7 +39,7 @@ function Menu(){
             
             sx={{ mr: 1 }}
           >          
-            <NavLink className='navLink' to="/fruits"> Início </NavLink>
+            <NavLink className='navLink' to="/"> Início </NavLink>
           </IconButton> 
           
           </Typography>
