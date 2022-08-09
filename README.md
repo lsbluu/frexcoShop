@@ -37,6 +37,8 @@ Funcionalidades obrigatórias:
             <h1 align="center"><img src="./cart.png" alt="Markdownify"  width="600"></h1>
    - Página da fruta
                   <h1 align="center"><img src="./fruit.png" alt="Markdownify"  width="600"></h1>
+   - Not Found
+                  <h1 align="center"><img src="./not.png" alt="Markdownify"  width="600"></h1>
 
 
 
