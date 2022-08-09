@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200">
+<h1 align="center"><img src="./frexco.png" alt="Markdownify"  width="600"></h1>
 
 # Boas-vindas ao repositório do projeto Frexco Shop!
 
