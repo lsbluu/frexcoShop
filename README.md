@@ -54,3 +54,16 @@ Funcionalidades obrigatórias:
  
 
 </details>
+
+
+<details>
+  <summary><strong>:keyboard:	 API Utilizada </strong></summary><br />
+
+
+https://www.fruityvice.com/doc/index.html
+
+ 
+
+</details>
+
+
