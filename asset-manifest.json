@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frexcoShop/static/css/main.9a0fe34c.css",
-    "main.js": "/frexcoShop/static/js/main.ccef5414.js",
+    "main.js": "/frexcoShop/static/js/main.8fb5cb7c.js",
     "static/media/Umbu.jpg": "/frexcoShop/static/media/Umbu.9bc9572d81ea2b40662d.jpg",
     "static/media/Pineapple.jpg": "/frexcoShop/static/media/Pineapple.e3228c7acf83ecf35196.jpg",
     "static/media/appricot.jpeg": "/frexcoShop/static/media/appricot.93721544483a6d0fe127.jpeg",
@@ -36,10 +36,10 @@
     "static/media/Durian.jpg": "/frexcoShop/static/media/Durian.56478db9712e63a48e2d.jpg",
     "index.html": "/frexcoShop/index.html",
     "main.9a0fe34c.css.map": "/frexcoShop/static/css/main.9a0fe34c.css.map",
-    "main.ccef5414.js.map": "/frexcoShop/static/js/main.ccef5414.js.map"
+    "main.8fb5cb7c.js.map": "/frexcoShop/static/js/main.8fb5cb7c.js.map"
   },
   "entrypoints": [
     "static/css/main.9a0fe34c.css",
-    "static/js/main.ccef5414.js"
+    "static/js/main.8fb5cb7c.js"
   ]
 }
