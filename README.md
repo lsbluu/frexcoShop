@@ -52,6 +52,8 @@ Funcionalidades obrigatórias:
  
  3. Execute o NPM START
  
+ 4. Remover /frexcoShop da URL
+ 
 
 </details>
 
