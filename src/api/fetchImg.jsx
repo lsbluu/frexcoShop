@@ -1,8 +1,7 @@
-import apiResult from './images';
+import apiResult from './images'
 
-const fetchImg =  () => {
+const fetchImg = () => {
+  return apiResult
+}
 
-  return  apiResult;
-};
-
-export default fetchImg;
+export default fetchImg

@@ -1,5 +1,5 @@
-import { createContext } from 'react';
+import { createContext } from 'react'
 
-const FruitContext = createContext();
+const FruitContext = createContext()
 
-export default FruitContext;
+export default FruitContext
